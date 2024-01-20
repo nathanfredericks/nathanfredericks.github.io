@@ -7,10 +7,18 @@ import ProjectsSection from '@/sections/ProjectsSection';
 import ExperienceSection from '@/sections/ExperienceSection';
 import SkillsSection from '@/sections/SkillsSection';
 import EducationSection from '@/sections/EducationSection';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description"
+          content="Hello! My name's Nathan.  I'm a Computer Science student at Acadia University. I'm passionate about building quality software that can make an impact." />
+        <title>Nathan Fredericks | Computer Science student</title>
+      </Head>
       {/* Header */}
       <header className="header-bg relative flex min-h-[95vh] flex-col items-center justify-center px-5 py-10 shadow-lg">
         <div className="relative md:mb-10">
@@ -66,7 +74,7 @@ export default function Home() {
           Send me an email at{' '}
           <a
             href="mailto:nathan@fredericks.dev"
-            className="text-blue-500 underline"
+            className="text-blue-700 underline"
           >
             nathan@fredericks.dev
           </a>{' '}
