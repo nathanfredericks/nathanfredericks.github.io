@@ -45,7 +45,7 @@ export default function Home() {
             className="mx-2.5 mt-3 rounded-md border border-gray-900 bg-white px-5 py-2.5 text-center font-mono text-gray-900 shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200"
           >
             <div className="inline-flex items-center">
-              Linkedin
+              LinkedIn
               <Image
                 src={linkedinIcon}
                 alt="linkedin"
