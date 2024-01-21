@@ -11,7 +11,7 @@ type Props = {
 export default function ProjectCard({Icon, name, description, tags, link}: Props) {
   const card = (
     <>
-      <Icon className="h-12 w-12"/><h1 className="my-2 text-2xl font-bold text-gray-900">{name}</h1>
+      <Icon className="h-12 w-12"/><h1 className="my-2 text-xl md:text-2xl font-bold text-gray-900">{name}</h1>
       <p className="font-medium text-gray-800">{description}</p>
       <div className="flex flex-row flex-wrap">
         {tags.map((tag) => (
@@ -28,7 +28,7 @@ export default function ProjectCard({Icon, name, description, tags, link}: Props
 
   return (
     <article
-      className="rounded-md border hover:bg-gray-100 border-gray-900 bg-white p-6 shadow transition duration-300 ease-in-out hover:-translate-y-1 md:p-8">
+      className="rounded-md border hover:bg-gray-100 border-gray-900 bg-white p-4 md:p-5 shadow transition duration-300 ease-in-out hover:-translate-y-1">
       {link ? (
         <a href={link} target="_blank">
           {card}
