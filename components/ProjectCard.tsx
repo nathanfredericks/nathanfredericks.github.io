@@ -28,7 +28,7 @@ export default function ProjectCard({Icon, name, description, tags, link}: Props
 
   return (
     <article
-      className="rounded-md border border-gray-900 bg-white p-6 shadow transition duration-300 ease-in-out hover:-translate-y-1 md:p-8">
+      className="rounded-md border hover:bg-gray-100 border-gray-900 bg-white p-6 shadow transition duration-300 ease-in-out hover:-translate-y-1 md:p-8">
       {link ? (
         <a href={link} target="_blank">
           {card}

@@ -76,7 +76,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="p-5 text-center">
-        <div>&copy; 2024 Nathan Fredericks.</div>
+        <div>&copy; 2024 Nathan Fredericks</div>
       </footer>
     </div>
   );

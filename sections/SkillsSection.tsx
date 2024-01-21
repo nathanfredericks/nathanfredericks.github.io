@@ -9,7 +9,7 @@ export default function SkillsSection() {
           <h2 className="text-2xl font-bold text-gray-900">
             Primary Programming Languages
           </h2>
-          <p>Python, Java, HTML, JavaScript, CSS</p>
+          <p>Python, Java, HTML, JavaScript, CSS.</p>
         </div>
         <div>
           <h2 className="text-2xl font-bold text-gray-900">
@@ -22,24 +22,24 @@ export default function SkillsSection() {
           <p>
             Amazon Web Services (Backup, CloudFront, DynamoDB, EC2, Lambda,
             Route 53, S3, SES, SNS), Firebase (Firestore, Realtime Database,
-            Cloud Functions, Authentication, Hosting, Cloud Storage)
+            Cloud Functions, Authentication, Hosting, Cloud Storage).
           </p>
         </div>
         <div>
           <h2 className="text-2xl font-bold text-gray-900">Frameworks</h2>
-          <p>React, Vue, NextJS, Django, Express, SwiftUI</p>
+          <p>React, Vue, NextJS, Django, Express, SwiftUI.</p>
         </div>
         <div>
           <h2 className="text-2xl font-bold text-gray-900">Tools</h2>
           <p>
             Docker, Git, Visual Studio Code, InteliJ, Firefox Developer Tools,
-            Package Managers (NPM, pip){' '}
+            Package Managers (NPM, pip).
           </p>
         </div>
         <div>
           <h2 className="text-2xl font-bold text-gray-900">Concepts</h2>
           <p>
-            RESTful APIs, Serverless, Object Oriented Programming, LAMP Stack
+            RESTful APIs, Serverless, Object Oriented Programming, LAMP Stack.
           </p>
         </div>
         <div>

@@ -30,22 +30,6 @@ export default function ExperienceSection() {
           </ul>
         </TimelineItem>
         <TimelineItem
-          title="Acadia University"
-          subtitle="Teaching Assistant | Wolfville, NS | September 2023 - December 2023"
-        >
-          <ul className="mb-5 list-disc pl-4">
-            <li>Assist teaching Computer Programming 1 lab.</li>
-            <li>
-              Grade over 100 assignments biweekly and provide impactful feedback
-              on submissions.
-            </li>
-            <li>
-              Implemented plagiarism detection software into the grading
-              workflow, resulting in an 100% increase of reported incidents.
-            </li>
-          </ul>
-        </TimelineItem>
-        <TimelineItem
           title="Brilliant Labs"
           subtitle="Youth Mentor | Frederickton, NB (Remote) | June 2023 - Present"
         >
@@ -62,6 +46,22 @@ export default function ExperienceSection() {
             <li>
               Support youth in learning about science, technology, engineering,
               arts, and math.
+            </li>
+          </ul>
+        </TimelineItem>
+        <TimelineItem
+          title="Acadia University"
+          subtitle="Teaching Assistant | Wolfville, NS | September 2023 - December 2023"
+        >
+          <ul className="mb-5 list-disc pl-4">
+            <li>Assist teaching Computer Programming 1 lab.</li>
+            <li>
+              Grade over 100 assignments biweekly and provide impactful feedback
+              on submissions.
+            </li>
+            <li>
+              Implemented plagiarism detection software into the grading
+              workflow, resulting in an 100% increase of reported incidents.
             </li>
           </ul>
         </TimelineItem>
