@@ -35,7 +35,7 @@ export default function Home() {
             👋
           </div>
         </div>
-        <h1 className="lg:text-4x my-5 max-w-screen-lg text-center text-xl text-white md:mb-10 md:text-3xl">
+        <h1 className="lg:text-4xl my-5 max-w-screen-lg text-center text-xl text-white md:mb-10 md:text-3xl">
           <span className="underline">Hello! My name&apos;s Nathan.</span>&nbsp;
           I&apos;m a Computer Science student at Acadia University. I&apos;m
           passionate about building quality software that can make an impact.
@@ -44,17 +44,17 @@ export default function Home() {
           <a
             href="https://github.com/nathanfredericks"
             target="_blank"
-            className="mx-2.5 mt-3 rounded-md border border-gray-900 bg-white px-5 py-2.5 text-center font-mono text-gray-900 shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200"
+            className="mx-2.5 mt-3 rounded-md border border-gray-900 bg-white px-3 py-2 md:px-5 md:py-2.5 text-center font-mono text-gray-900 shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200"
           >
             <div className="inline-flex items-center">
               <span>GitHub</span>
-              <Image src={githubMark} alt="github" className="ml-2 h-5 w-5" />
+              <Image src={githubMark} alt="github" className="ml-2 h-5 w-5"/>
             </div>
           </a>
           <a
             href="https://www.linkedin.com/in/nathanfredericks/"
             target="_blank"
-            className="mx-2.5 mt-3 rounded-md border border-gray-900 bg-white px-5 py-2.5 text-center font-mono text-gray-900 shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200"
+            className="mx-2.5 mt-3 rounded-md border border-gray-900 bg-white px-3 py-2 md:px-5 md:py-2.5 text-center font-mono text-gray-900 shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200"
           >
             <div className="inline-flex items-center">
               LinkedIn
@@ -69,11 +69,11 @@ export default function Home() {
       </header>
 
       {/* Sections */}
-      <ProjectsSection />
-      <ExperienceSection />
-      <SkillsSection />
-      <EducationSection />
-      <ContactSection />
+      <ProjectsSection/>
+      <ExperienceSection/>
+      <SkillsSection/>
+      <EducationSection/>
+      <ContactSection/>
 
       {/* Footer */}
       <footer className="p-5 text-center">
