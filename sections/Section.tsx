@@ -1,15 +1,17 @@
 import React from 'react';
 
 type Props = {
+  id: string;
   Icon: React.ElementType;
   name: string;
   children: React.ReactNode;
   shaded?: boolean;
 };
 
-export default function Section({ Icon, name, shaded, children }: Props) {
+export default function Section({ id, Icon, name, shaded, children }: Props) {
   return (
     <section
+      id={id}
       className={`flex flex-col items-center justify-center px-2 py-5 md:p-5  ${shaded ? 'bg-gray-100' : ''}`}
     >
       <div className="max-w-screen-lg">

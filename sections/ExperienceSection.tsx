@@ -4,7 +4,7 @@ import Timeline, { TimelineItem } from '@/components/Timeline';
 
 export default function ExperienceSection() {
   return (
-    <Section Icon={BriefcaseIcon} name="Experience" shaded>
+    <Section id="experience" Icon={BriefcaseIcon} name="Experience" shaded>
       <Timeline>
         <TimelineItem
           title="Acadia University"

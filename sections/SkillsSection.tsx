@@ -3,7 +3,7 @@ import Section from '@/sections/Section';
 
 export default function SkillsSection() {
   return (
-    <Section Icon={Cog6ToothIcon} name="Skills">
+    <Section id="skills" Icon={Cog6ToothIcon} name="Skills">
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
         <div>
           <h2 className="text-2xl font-bold text-gray-900">

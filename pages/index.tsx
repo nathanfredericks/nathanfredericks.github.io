@@ -1,13 +1,13 @@
-import { EnvelopeIcon } from '@heroicons/react/24/solid';
 import githubMark from '../public/github-mark.svg';
 import linkedinIcon from '../public/linkedin-icon.svg';
 import Image from 'next/image';
-import Section from '@/sections/Section';
 import ProjectsSection from '@/sections/ProjectsSection';
 import ExperienceSection from '@/sections/ExperienceSection';
 import SkillsSection from '@/sections/SkillsSection';
 import EducationSection from '@/sections/EducationSection';
+import ContactSection from '@/sections/ContactSection';
 import Head from 'next/head';
+
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
           content="Hello! My name's Nathan.  I'm a Computer Science student at Acadia University. I'm passionate about building quality software that can make an impact." />
         <title>Nathan Fredericks | Computer Science student</title>
       </Head>
+
       {/* Header */}
       <header className="header-bg relative flex min-h-[95vh] flex-col items-center justify-center px-5 py-10 shadow-lg">
         <div className="relative md:mb-10">
@@ -41,6 +42,7 @@ export default function Home() {
         <div className="flex flex-row flex-wrap justify-center">
           <a
             href="https://github.com/nathanfredericks"
+            target="_blank"
             className="mx-2.5 mt-3 rounded-md border border-gray-900 bg-white px-5 py-2.5 text-center font-mono text-gray-900 shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200"
           >
             <div className="inline-flex items-center">
@@ -50,6 +52,7 @@ export default function Home() {
           </a>
           <a
             href="https://www.linkedin.com/in/nathanfredericks/"
+            target="_blank"
             className="mx-2.5 mt-3 rounded-md border border-gray-900 bg-white px-5 py-2.5 text-center font-mono text-gray-900 shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200"
           >
             <div className="inline-flex items-center">
@@ -69,18 +72,7 @@ export default function Home() {
       <ExperienceSection />
       <SkillsSection />
       <EducationSection />
-      <Section Icon={EnvelopeIcon} name="Contact">
-        <p className="text-center text-xl font-medium text-gray-800">
-          Send me an email at{' '}
-          <a
-            href="mailto:nathan@fredericks.dev"
-            className="text-blue-700 underline"
-          >
-            nathan@fredericks.dev
-          </a>{' '}
-          and I will get back to you as soon as possible.
-        </p>
-      </Section>
+      <ContactSection />
 
       {/* Footer */}
       <footer className="p-5 text-center">
