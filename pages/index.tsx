@@ -26,10 +26,10 @@ export default function Home() {
         <div className="relative md:mb-10">
           <Image
             className="h-48 w-48 rounded-full border-4 shadow md:h-64 md:w-64"
-            src="/profile.jpeg"
+            src="/profile.webp"
             width={256}
             height={256}
-            alt="nathan fredericks"
+            alt="portrait of nathan fredericks"
           />
           <div className="invisible absolute bottom-0 right-0 text-8xl md:visible">
             👋
@@ -48,7 +48,7 @@ export default function Home() {
           >
             <div className="inline-flex items-center">
               <span>GitHub</span>
-              <Image src={githubMark} alt="github" className="ml-2 h-5 w-5"/>
+              <Image src={githubMark} alt="github logo" className="ml-2 h-5 w-5"/>
             </div>
           </a>
           <a
@@ -60,7 +60,7 @@ export default function Home() {
               LinkedIn
               <Image
                 src={linkedinIcon}
-                alt="linkedin"
+                alt="linkedin logo"
                 className="ml-2 h-5 w-5"
               />
             </div>
