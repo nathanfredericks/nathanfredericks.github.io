@@ -35,9 +35,9 @@ export default function ProjectsSection() {
         <ProjectCard
           Icon={PencilIcon}
           name="Nathan's Stickies"
-          description="I built a script and website to sync my desktop sticky notes to the cloud. I used this project to improve my knowlege of AppleScript and Django, and solve a problem."
+          description="I built a script and website to sync my desktop sticky notes to the cloud. I used this project to improve my knowlege of AppleScript and Django."
           tags={['Python', 'Django', 'AppleScript']}
-          link="https://github.com/nathanfredericks/HNNow"
+          link="https://github.com/nathanfredericks/nathansstickies"
         />
       </div>
     </Section>

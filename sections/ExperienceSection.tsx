@@ -44,8 +44,8 @@ export default function ExperienceSection() {
               youth of all ages.
             </li>
             <li>
-              Support youth in learning about science, technology, engineering,
-              arts, and math.
+              Support youth in learning about STEAM (science, technology, engineering,
+              arts, and math).
             </li>
           </ul>
         </TimelineItem>
@@ -54,14 +54,14 @@ export default function ExperienceSection() {
           subtitle="Teaching Assistant | Wolfville, NS | September 2023 - December 2023"
         >
           <ul className="mb-5 list-disc pl-4">
-            <li>Assist teaching Computer Programming 1 lab.</li>
+            <li>Assisted teaching Computer Programming 1 lab.</li>
             <li>
-              Grade over 100 assignments biweekly and provide impactful feedback
+              Graded over 100 assignments biweekly and provide impactful feedback
               on submissions.
             </li>
             <li>
               Implemented plagiarism detection software into the grading
-              workflow, resulting in an 100% increase of reported incidents.
+              workflow, resulting in an 100% increase of reported incidents of plagiarism.
             </li>
           </ul>
         </TimelineItem>

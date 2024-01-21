@@ -8,7 +8,7 @@ export default function EducationSection() {
       <Timeline>
         <TimelineItem
           title="Acadia University"
-          subtitle="Bachelor of Applied Computer Science | Wolfville, NS | September 2022 - August 2027"
+          subtitle="Bachelor of Applied Computer Science | Wolfville, NS | September 2022 - Present"
         >
           <ul className="list-disc pl-4">
             <li>3.5 GPA</li>
@@ -18,8 +18,8 @@ export default function EducationSection() {
               citizenship, and character.
             </li>
             <li>
-              Achieved an A+ in Computer Programming 1 and 2, and Software
-              Engineering 1.
+              Achieved an A+ in Computer Programming (OOP Python and Java), and Software
+              Engineering.
             </li>
             <li>
               Relevant Coursework: Data Structures and Algorithms, Computer

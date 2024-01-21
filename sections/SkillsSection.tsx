@@ -9,13 +9,13 @@ export default function SkillsSection() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900">
             Primary Programming Languages
           </h2>
-          <p>Python, Java, HTML, JavaScript, CSS.</p>
+          <p>Python, Java, HTML, CSS, JavaScript.</p>
         </div>
         <div>
           <h2 className="text-xl md:text-2xl font-bold text-gray-900">
             Secondary Programming Languages
           </h2>
-          <p>PHP, Swift, SQL</p>
+          <p>Swift, SQL, PHP.</p>
         </div>
         <div>
           <h2 className="text-xl md:text-2xl font-bold text-gray-900">Cloud Providers</h2>
@@ -27,7 +27,7 @@ export default function SkillsSection() {
         </div>
         <div>
           <h2 className="text-xl md:text-2xl font-bold text-gray-900">Frameworks</h2>
-          <p>React, Vue, NextJS, Django, Express, SwiftUI.</p>
+          <p>NextJS, React, Django, Express, SwiftUI.</p>
         </div>
         <div>
           <h2 className="text-xl md:text-2xl font-bold text-gray-900">Tools</h2>
