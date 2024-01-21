@@ -13,10 +13,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description"
-          content="Hello! My name's Nathan.  I'm a Computer Science student at Acadia University. I'm passionate about building quality software that can make an impact." />
+              content="Hello! My name's Nathan.  I'm a Computer Science student at Acadia University. I'm passionate about building quality software that can make an impact."/>
+        <meta name="theme-color" content="#172554" />
         <title>Nathan Fredericks | Computer Science student</title>
       </Head>
 
