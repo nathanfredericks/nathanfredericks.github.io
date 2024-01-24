@@ -19,6 +19,7 @@ export default function Home() {
               content="Hello! My name's Nathan.  I'm a Computer Science student at Acadia University. I'm passionate about building quality software that can make an impact."/>
         <meta name="theme-color" content="#172554" />
         <title>Nathan Fredericks | Computer Science student</title>
+        <link rel="canonical" href="https://nathan.fredericks.dev"/>
       </Head>
 
       {/* Header */}
