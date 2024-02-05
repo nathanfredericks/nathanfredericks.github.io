@@ -32,7 +32,7 @@ export default function Home() {
             height={256}
             alt="portrait of nathan fredericks"
           />
-          <div className="invisible absolute bottom-0 right-0 text-8xl md:visible">
+          <div className="absolute bottom-0 right-0 text-7xl md:text-8xl">
             👋
           </div>
         </div>
