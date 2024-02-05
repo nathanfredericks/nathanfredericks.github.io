@@ -31,7 +31,7 @@ export default function ExperienceSection() {
         </TimelineItem>
         <TimelineItem
           title="Brilliant Labs"
-          subtitle="Youth Mentor | Frederickton, NB (Remote) | June 2023 - Present"
+          subtitle="Youth Mentor | Remote | June 2023 - Present"
         >
           <ul className="list-disc pl-4">
             <li>
@@ -44,8 +44,8 @@ export default function ExperienceSection() {
               youth of all ages.
             </li>
             <li>
-              Support youth in learning about STEAM (science, technology, engineering,
-              arts, and math).
+              Support youth in learning about science, technology, engineering,
+              and arts.
             </li>
           </ul>
         </TimelineItem>
@@ -54,14 +54,14 @@ export default function ExperienceSection() {
           subtitle="Teaching Assistant | Wolfville, NS | September 2023 - December 2023"
         >
           <ul className="mb-5 list-disc pl-4">
-            <li>Assisted teaching Computer Programming 1 lab.</li>
+            <li>Assisted in teaching Computer Programming 1 lab.</li>
             <li>
               Graded over 100 assignments biweekly and provide impactful feedback
               on submissions.
             </li>
             <li>
               Implemented plagiarism detection software into the grading
-              workflow, resulting in an 100% increase of reported incidents of plagiarism.
+              workflow, resulting in an 100% increase of reported incidents in plagiarism.
             </li>
           </ul>
         </TimelineItem>

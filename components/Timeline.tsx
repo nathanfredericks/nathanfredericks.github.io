@@ -6,7 +6,7 @@ type TimelineProps = {
 
 export default function Timeline({ children }: TimelineProps) {
   return (
-    <div className="max-w-screen-md">
+    <div className="md:mx-24">
       <ul className="relative md:border-s md:border-gray-500">{children}</ul>
     </div>
   );

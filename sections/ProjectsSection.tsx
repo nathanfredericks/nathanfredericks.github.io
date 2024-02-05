@@ -1,15 +1,15 @@
+import { StarIcon } from '@heroicons/react/24/solid';
 import {
-  CommandLineIcon,
   NewspaperIcon, PencilIcon,
   UserIcon,
   WrenchIcon,
-} from '@heroicons/react/24/solid';
+} from '@heroicons/react/24/outline';
 import ProjectCard from '@/components/ProjectCard';
 import Section from '@/sections/Section';
 
 export default function ProjectsSection() {
   return (
-    <Section id="projects" Icon={CommandLineIcon} name="Projects">
+    <Section id="projects" Icon={StarIcon} name="Projects">
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
         <ProjectCard
           Icon={UserIcon}
@@ -21,7 +21,7 @@ export default function ProjectsSection() {
         <ProjectCard
           Icon={WrenchIcon}
           name="PocketMine Tools"
-          description="I built a website for Minecraft server administrators and plugin developers. The website offers 9 responsive utilities for efficient server administration and plugin development. The project has been in active development since 2019."
+          description="I built a website for Minecraft server administrators and plugin developers. The website offers nine responsive utilities for efficient server administration and plugin development. The project has been in active development since 2019."
           tags={['NextJS', 'Bootstrap']}
           link="https://github.com/nathanfredericks/pocketmine-tools"
         />
