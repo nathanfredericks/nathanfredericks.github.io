@@ -27,19 +27,6 @@ export default function EducationSection() {
             </li>
           </ul>
         </TimelineItem>
-        <TimelineItem
-          title="Middleton Regional High School"
-          subtitle="High School Diploma | Middleton, NS | September 2018 - June 2022"
-        >
-          <ul className="list-disc pl-4">
-            <li>90% average.</li>
-            <li>Achieved Honours with Distinction in my senior year.</li>
-            <li>
-              Awarded the Harry E. Parker Memorial Award for my excellent
-              academic performance and kindness towards others.
-            </li>
-          </ul>
-        </TimelineItem>
       </Timeline>
     </Section>
   );
