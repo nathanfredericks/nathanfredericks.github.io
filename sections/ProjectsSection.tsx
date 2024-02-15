@@ -1,6 +1,5 @@
 import { StarIcon } from '@heroicons/react/24/solid';
 import {
-  EyeIcon,
   NewspaperIcon, PencilIcon,
   UserIcon,
   WrenchIcon,
@@ -11,14 +10,7 @@ import Section from '@/sections/Section';
 export default function ProjectsSection() {
   return (
     <Section id="projects" Icon={StarIcon} name="Projects">
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-        <ProjectCard
-          Icon={EyeIcon}
-          name="Domain Watchdog"
-          description="I am building an application which monitors domain names and reminds users about renewal/expiry."
-          tags={['Python', 'Django']}
-          link="https://github.com/nathanfredericks/domainwatchdog"
-        />
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
         <ProjectCard
           Icon={UserIcon}
           name="Portfolio Website"
