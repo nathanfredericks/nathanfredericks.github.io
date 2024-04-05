@@ -30,18 +30,17 @@ export default function ExperienceSection() {
           </ul>
         </TimelineItem>
         <TimelineItem
-          title="Brilliant Labs"
-          subtitle="Youth Mentor | Remote | June 2023 - Present"
+          title="Brilliant Labs / Labos Créatifs"
+          subtitle="STEAM Mentor | Remote | June 2023 - March 2024"
         >
           <ul className="list-disc pl-4">
             <li>
-              Collaborate remotely with other mentors to design educational
+              Collaborated remotely with my peers to design educational
               activities for youth, focusing on the United Nation’s Sustainable
-              Development Goals (UN SDGs).
+              Development Goals.
             </li>
             <li>
-              Partner with local communities to offer weekly programming for
-              youth of all ages.
+              Partnered with local communities to offer weekly programming for youth of all ages.
             </li>
             <li>
               Support youth in learning about science, technology, engineering,

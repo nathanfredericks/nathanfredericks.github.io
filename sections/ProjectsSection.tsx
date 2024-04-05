@@ -14,7 +14,7 @@ export default function ProjectsSection() {
         <ProjectCard
           Icon={UserIcon}
           name="Portfolio Website"
-          description="I designed and developed my personal website from scratch using NextJS and Tailwind CSS. The website was designed with readability and page speed in mind."
+          description="I designed and developed my personal website from scratch using NextJS and Tailwind CSS."
           tags={['NextJS', 'Tailwind CSS']}
           link="https://github.com/nathanfredericks/nathanfredericks.github.io"
         />
@@ -35,7 +35,7 @@ export default function ProjectsSection() {
         <ProjectCard
           Icon={PencilIcon}
           name="Nathan's Stickies"
-          description="I built a script and website to sync my desktop sticky notes to the cloud. I used this project to improve my knowlege of AppleScript and Django."
+          description="I built a script and website to sync my desktop sticky notes to the cloud. The project improved my knowlege and understanding of AppleScript and Django."
           tags={['Python', 'Django', 'AppleScript']}
           link="https://github.com/nathanfredericks/nathansstickies"
         />
