@@ -15,7 +15,7 @@ export default function SkillsSection() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900">
             Secondary Programming Languages
           </h2>
-          <p>Swift, SQL, PHP.</p>
+          <p>Swift, SQL, PHP, C.</p>
         </div>
         <div>
           <h2 className="text-xl md:text-2xl font-bold text-gray-900">Cloud Providers</h2>

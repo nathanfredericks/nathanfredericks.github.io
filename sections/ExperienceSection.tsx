@@ -7,25 +7,30 @@ export default function ExperienceSection() {
     <Section id="experience" Icon={BriefcaseIcon} name="Experience" shaded>
       <Timeline>
         <TimelineItem
+          title="Certn"
+          subtitle="Engineering Co-op | Victoria, BC (Remote) | April 2024 - Present"
+        >
+          <></>
+        </TimelineItem>
+        <TimelineItem
           title="Acadia University"
-          subtitle="Resident Assistant | Wolfville, NS | August 2023 - Present"
+          subtitle="Resident Assistant | Wolfville, NS | August 2023 - April 2024"
         >
           <ul className="mb-5 list-disc pl-4">
             <li>
-              Manage over 70 students in on-campus residence, ensuring a safe
+              Managed over 70 students in on-campus residence, ensuring a safe
               and comfortable environment.
             </li>
             <li>
-              Organize and promote social events to facilitate relationships
-              between residents and build a sense of community.
+              Organized social events to facilitate relationships between residents
+              and build a sense of community.
             </li>
             <li>
-              Manage residence social media pages, communicating with residents
-              in new ways.
+              Manage residence social media pages, interacting with residents in new ways.
             </li>
             <li>
-              Provide a safe space for residents to come for support in their
-              academic and personal lives.
+              Provided a safe space for residents to come for support in their
+              academic or personal lives.
             </li>
           </ul>
         </TimelineItem>

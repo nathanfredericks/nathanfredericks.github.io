@@ -11,10 +11,10 @@ export default function EducationSection() {
           subtitle="Bachelor of Applied Science - BASc, Computer Science | Wolfville, NS | September 2022 - May 2027"
         >
           <ul className="list-disc pl-4">
-            <li><span className="underline">Activities and societies:</span> Acadia Running Club President, Community
+            <li><span className="underline">Activities and societies:</span> Acadia Residence Life, Community
               Outreach General Member
             </li>
-            <li><span className="underline">Volunteer experience:</span> Acadia Robotics, FIRST LEGO League</li>
+            <li><span className="underline">Volunteer experience:</span> Acadia Robotics, FIRST LEGO League, Community Outreach</li>
             <li><span className="underline">Relevant coursework:</span> Computer Programing (Python, Java, C), Software Engineering, Data Structures and Algorithms, Computer Architecture, Matrix Algebra, Discrete Mathematics, Statistics, Full-Stack Cloud Computing.</li>
           </ul>
         </TimelineItem>
