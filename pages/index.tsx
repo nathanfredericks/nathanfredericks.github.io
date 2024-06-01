@@ -17,13 +17,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description"
               content="Hello! My name's Nathan. I'm a Computer Science student at Acadia University. I'm passionate about building quality software that can make an impact."/>
-        <meta name="theme-color" content="#172554" />
+        <meta name="theme-color" content="#172554"/>
         <title>Nathan Fredericks | Computer Science student</title>
         <link rel="canonical" href="https://nathan.fredericks.dev"/>
       </Head>
 
       {/* Header */}
-      <header className="header-bg relative flex min-h-[95vh] flex-col items-center justify-center px-5 py-10 shadow-lg">
+      <header
+        className="header-bg relative flex min-h-[95vh] flex-col items-center justify-center px-5 py-10 shadow-lg">
         <div className="relative md:mb-10">
           <Image
             className="h-48 w-48 rounded-full border-4 shadow md:h-64 md:w-64"

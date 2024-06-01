@@ -1,61 +1,74 @@
-import { BriefcaseIcon } from '@heroicons/react/24/solid';
+import {BriefcaseIcon} from '@heroicons/react/24/solid';
 import Section from '@/sections/Section';
-import Timeline, { TimelineItem } from '@/components/Timeline';
+import Timeline, {TimelineItem} from '@/components/Timeline';
 
 export default function ExperienceSection() {
   return (
     <Section id="experience" Icon={BriefcaseIcon} name="Experience" shaded>
       <Timeline>
         <TimelineItem
-          title="Certn"
-          subtitle="Engineering Co-op | Victoria, BC (Remote) | April 2024 - Present"
-        >
-          <></>
-        </TimelineItem>
-        <TimelineItem
-          title="Acadia University"
-          subtitle="Resident Assistant | Wolfville, NS | August 2023 - April 2024"
+          title="Engineering Co-op"
+          subtitle="Certn | Remote | April 2024 - Present"
         >
           <ul className="mb-5 list-disc pl-4">
             <li>
-              Managed over 70 students in on-campus residence, ensuring a safe
-              and comfortable environment.
+              Designed and implemented Slack notifications for an internal support tool, leading to improved support
+              response time.
             </li>
             <li>
-              Organized social events to facilitate relationships between residents
-              and build a sense of community.
+              Employ test frameworks to conduct comprehensive code testing and pinpoint issues.
             </li>
             <li>
-              Manage residence social media pages, interacting with residents in new ways.
+              Work collaboratively in an agile setting, joining team sprints and taking part in daily stand-up meetings.
             </li>
             <li>
-              Provided a safe space for residents to come for support in their
-              academic or personal lives.
+              Effectively communicate with team members in a remote-first environment.
             </li>
           </ul>
         </TimelineItem>
         <TimelineItem
-          title="Brilliant Labs / Labos Créatifs"
-          subtitle="STEAM Mentor | Remote | June 2023 - March 2024"
+          title="Resident Assistant"
+          subtitle="Acadia University | Wolfville, NS | August 2023 - April 2024"
+        >
+          <ul className="mb-5 list-disc pl-4">
+            <li>
+              Managed a community of over 70 students in on-campus housing, ensuring a safe and welcoming environment.
+            </li>
+            <li>
+              Planned and organized social events to foster connections among residents and build community spirit.
+            </li>
+            <li>
+              Managed the residence social media pages, communicating with residents in new ways.
+            </li>
+            <li>
+              Promptly addressed incidents to ensure the safety and security of my residence and documented them
+              quickly.
+            </li>
+            <li>
+              Offered a supportive environment for residents to seek guidance for their academic and personal needs.
+            </li>
+          </ul>
+        </TimelineItem>
+        <TimelineItem
+          title="STEAM Mentor"
+          subtitle="Brilliant Labs | Remote | June 2023 - March 2024"
         >
           <ul className="list-disc pl-4">
             <li>
-              Collaborated remotely with my peers to design educational
-              activities for youth, focusing on the United Nation’s Sustainable
-              Development Goals.
+              Collaborated remotely with peers to develop educational activities for youth, with a focus on the UN
+              Sustainable Development Goals.
             </li>
             <li>
-              Partnered with local communities to offer weekly programming for youth of all ages.
+              Partnered with local communities to deliver weekly programming for youth of all ages.
             </li>
             <li>
-              Support youth in learning about science, technology, engineering,
-              and arts.
+              Supported youth in learning about STEAM though hands-on activities and interactive learning experiences.
             </li>
           </ul>
         </TimelineItem>
         <TimelineItem
-          title="Acadia University"
-          subtitle="Teaching Assistant | Wolfville, NS | September 2023 - December 2023"
+          title="Teaching Assistant"
+          subtitle="Acadia University | Wolfville, NS | September 2023 - December 2023"
         >
           <ul className="mb-5 list-disc pl-4">
             <li>Assisted in teaching Computer Programming 1 lab.</li>

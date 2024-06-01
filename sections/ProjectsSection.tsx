@@ -14,28 +14,28 @@ export default function ProjectsSection() {
         <ProjectCard
           Icon={UserIcon}
           name="Portfolio Website"
-          description="I designed and developed my personal website from scratch using NextJS and Tailwind CSS."
+          description="Learn more about me and the unique skills I can bring to your team."
           tags={['NextJS', 'Tailwind CSS']}
           link="https://github.com/nathanfredericks/nathanfredericks.github.io"
         />
         <ProjectCard
           Icon={WrenchIcon}
           name="PocketMine Tools"
-          description="I built a website for Minecraft server administrators and plugin developers. The website offers nine responsive utilities for efficient server administration and plugin development. The project has been in active development since 2019."
+          description="Nine responsive utilities for efficient Minecraft server administration and plugin development."
           tags={['NextJS', 'Bootstrap']}
           link="https://github.com/nathanfredericks/pocketmine-tools"
         />
         <ProjectCard
           Icon={NewspaperIcon}
           name="HN Now"
-          description="Using early betas of SwiftUI, I developed HN Now. A Hacker News reader for iOS and iPadOS. HN Now was published to the Apple App Store in 2020."
+          description="Hacker News reader for iOS and iPadOS, published to the Apple App Store in 2020."
           tags={['Swift', 'SwiftUI']}
           link="https://github.com/nathanfredericks/HNNow"
         />
         <ProjectCard
           Icon={PencilIcon}
           name="Nathan's Stickies"
-          description="I built a script and website to sync my desktop sticky notes to the cloud. The project improved my knowlege and understanding of AppleScript and Django."
+          description="Sync desktop sticky notes to the cloud and access them from anywhere."
           tags={['Python', 'Django', 'AppleScript']}
           link="https://github.com/nathanfredericks/nathansstickies"
         />
