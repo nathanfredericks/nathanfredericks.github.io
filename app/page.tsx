@@ -19,20 +19,20 @@ export const viewport: Viewport = {
 export default function Page() {
   return (
     <div>
-      <header className="header relative flex h-screen flex-col items-center justify-center px-5 py-10 bg-slate-900">
+      <header className="header relative flex h-screen flex-col items-center justify-center bg-slate-900 px-5 py-10">
         <div className="relative md:mb-10">
           <Image
-              className="h-48 w-48 rounded-full border-4 shadow-sm md:h-64 md:w-64"
+              className="rounded-full shadow-sm md:h-64 md:w-64"
               src="/me.webp"
             width={256}
             height={256}
               alt="Headshot of Nathan Fredericks"
           />
-          <div className="absolute bottom-0 right-0 text-7xl md:text-8xl">
+          <div className="absolute right-0 bottom-0 text-7xl md:text-8xl">
             👋
           </div>
         </div>
-        <h1 className="lg:text-4xl my-5 max-w-(--breakpoint-lg) text-center text-2xl text-white md:mb-10 md:text-3xl">
+        <h1 className="my-5 max-w-(--breakpoint-lg) text-center text-3xl text-white md:mb-10 lg:text-4xl">
           <span className="underline">Hello! My name&apos;s Nathan.</span>&nbsp;
           I&apos;m a Computer Science student at Acadia University who&apos;s
           passionate about building quality software that matters.
