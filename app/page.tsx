@@ -9,7 +9,7 @@ import Button from "../components/Button";
 export const metadata: Metadata = {
   title: "Nathan Fredericks | Computer Science student",
   description:
-      "Hello! My name's Nathan. I'm a Computer Science student at Acadia University who's passionate about building quality software that matters.",
+      "Hello! My name's Nathan. I'm a Computer Science student at Acadia University.",
 };
 
 export const viewport: Viewport = {
@@ -34,8 +34,7 @@ export default function Page() {
         </div>
         <h1 className="my-5 max-w-(--breakpoint-lg) text-center text-3xl text-white md:mb-10 lg:text-4xl">
           <span className="underline">Hello! My name&apos;s Nathan.</span>&nbsp;
-          I&apos;m a Computer Science student at Acadia University who&apos;s
-          passionate about building quality software that matters.
+          I&apos;m a Computer Science student at Acadia University.
         </h1>
         <div className="flex flex-row flex-wrap justify-center">
           <Button
